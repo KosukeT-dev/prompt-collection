@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  form(method="post", action="/prompts").my-3
+    input(type="hidden" name="_csrf" value!=csrfToken)
+    div.form-group
+      label(for="promptName") 作品名
+      input(type="text" name="promptName")#promptName.form-control.input
+      small 例）美しい山と湖
+    div.form-group
+      label(for="prompt") PROMPT
+      textarea(name="prompt" required)#prompt.form-control.textarea
+      small 例）beautiful mountain and lake
+    button(type="submit").btn.btn-primary.button1  PROMPTをつくる

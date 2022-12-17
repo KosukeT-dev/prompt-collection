@@ -1,5 +1,22 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  div.jumbotron.my-3
+    h1 What is PROMPT COLLECTION ?
+    p.lead PROMPT COLLECTIONは、AIを利用するサービスのpromptをメモすることができるアプリケーションです。
+    small * prompt = AIで画像を生成するための文字列  
+  if user
+    div
+      a(href="/prompts/new").btn.btn-primary.button1 PROMPTをつくる
+    - var hasprompt = prompts.length > 0
+    if hasprompt
+      h3.my-3 PROMPT一覧
+      table.table
+        tr
+          th 作品名
+          th 更新日時
+        each prompt in prompts
+          tr
+            td
+              a(href=`/prompts/${prompt.promptId}`).workName #{prompt.promptName}
+            td #{prompt.formattedUpdatedAt}

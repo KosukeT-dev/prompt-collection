@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  h3.my-3 PROMPTの編集
+  form(method="post", action=`/prompts/${prompt.promptId}?edit=1`)
+    input(type="hidden" name="_csrf" value!=csrfToken)  
+    div.form-group
+      label(for="promptName") 作品名
+      input(type="text" name="promptName" value=prompt.promptName)#promptName.form-control.input
+      small 例）美しい山と湖
+    div.form-group
+      label(for="prompt") PROMPT
+      textarea(name="prompt" required)#prompt.form-control.textarea #{prompt.prompt}
+      small 例）beautiful mountain and lake
+    div
+      button(type="submit").btn.btn-primary.button1 以上の内容でPROMPTを編集する
+  h3.my-3 危険な変更
+  form(method="post", action=`/prompts/${prompt.promptId}?delete=1`)
+    input(type="hidden" name="_csrf" value!=csrfToken)  
+    button(type="submit").btn.btn-danger.button2 このPROMPTを削除する

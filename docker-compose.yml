@@ -18,3 +18,8 @@ services:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
       POSTGRES_DB: prompt_collection
+    volumes:
+      - prompt-collection-data:/var/lib/postgresql/data
+volumes:
+  prompt-collection-data:
+    external: true      

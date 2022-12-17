@@ -1,7 +1,28 @@
 doctype html
 html
   head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    title PROMPT COLLECTION 
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    link(rel="stylesheet",
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css",
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm",
+    crossorigin="anonymous")
+    link(rel="stylesheet", href="/stylesheets/style.css")
   body
-    block content
+        nav.navbar.navbar-light
+         div.navbar-header
+            a(href="/").navbar-brand.nav-link 〈 PROMPT COLLECTION 〉
+         ul.navbar-nav
+          if user
+             li.nav-item
+               a(href="/logout").btn.btn-primary #{user.username} をログアウト
+          else
+             li.nav-item
+               a(href="/login").btn.btn-primary ログイン 
+        div.container
+          block content  
+        script(src="/javascripts/bundle.js")
+  footer    
+     a(href="https://github.com/Kosuke-Tanoue-KT/prompt-collection/tree/main#readme").github  -GitHub-  
+     a(href="/").copyright -&copy; 2022 PROMPT COLLECTION- 

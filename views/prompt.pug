@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  div.card.my-3
+    div.card-header
+      h4 #{prompt.promptName}
+    div.card-body
+      p(style="white-space:pre;") #{prompt.prompt}
+    div.card-footer
+      p 作成者: #{prompt.user.username}
+  div.form-group
+    label(for="shareURL") 共有用 URL:
+    - var renderURL = process.env.CALLBACK_URL ? process.env.CALLBACK_URL : 'http://localhost:8000/'
+    input(type="text" value=`${renderURL}prompts/${prompt.promptId}/`)#shareURL.form-control
+  - var isMine = parseInt(user.id) === prompt.user.userId
+  if isMine
+    div
+      a(href=`/prompts/${prompt.promptId}/edit`).btn.btn-primary.button1 このPROMPTを編集する

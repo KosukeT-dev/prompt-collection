@@ -1,8 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito:wght@300&display=swap');
+
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
 }
 
-a {
-  color: #00B7FF;
+.btn-primary {
+  border: thin solid #F3F2FF;
+  background-color: aliceblue;
+  color: #333;
 }
+
+nav {
+  background-color: aliceblue;
+}
+
+footer {
+  width: 100%;
+  padding: 15px;
+  background-color: aliceblue;
+  position: absolute;
+  bottom: 0;
+}
+
+.jumbotron {
+  background-color: #ffffff;
+}
+
+.workName {
+  color: #4385f5;
+}
+
+.button1 {
+  border: 1px solid #4385f5;
+  background-color: #ffffff;
+  color: #4385f5;
+}
+
+.button2 {
+  border: 1px solid rgb(240, 44, 44);
+  background-color: #ffffff;
+  color: rgb(240, 44, 44);
+}
+
+.copyright {
+  color: #333;
+  font-size: smaller;
+}
+
+.github {
+  color: #333;
+  font-size: smaller;
+}
+
+/*dark mode*/
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #333;
+    color: #F3F2FF;
+  }
+
+  .btn-primary {
+    border: thin solid #333;
+    background-color: #4385f5;
+    color: #F3F2FF;
+  }
+
+  nav, footer {
+    background-color: #4385f5;
+  }
+
+  .jumbotron {
+    background-color: #333;
+    color: #F3F2FF;
+  }
+
+  .input, .textarea, .card-header, .card-footer {
+    background-color: #4d4d4d;
+    color: #F3F2FF;
+  }
+
+  .card-body {
+    background-color: #5c5c5c;
+    color: #F3F2FF;
+  }
+
+  .workName {
+    text-decoration: underline;
+    color: #F3F2FF;
+  }
+
+  .button1 {
+    background-color: #4385f5;
+    color: #F3F2FF;
+  }
+  
+  .button2 {
+    background-color: rgb(240, 44, 44);
+    color: #F3F2FF;
+  }
+
+  #shareURL {
+    background-color: #5c5c5c;
+    color: white;
+  }
+
+  .copyright {
+    color: #F3F2FF;
+  }
+
+  .github {
+    color: #F3F2FF;
+    font-size: smaller;
+  }
+  }
