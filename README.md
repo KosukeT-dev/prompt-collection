@@ -51,3 +51,6 @@ PROMPT COLLECTIONは、AIを利用するサービスのprompt　(stable diffusio
 9. 入力<br>
 10. クリック(promptを編集する場合)<br> 
 11. クリック(promptを削除する場合)
+
+𝑁𝑜𝑡𝑒
+起動に時間がかかる可能性があります
