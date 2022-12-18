@@ -1,4 +1,6 @@
-[![logo](https://user-images.githubusercontent.com/98013847/205787484-89426fe4-8564-481d-acf6-b49cfb258e6d.png)](https://kosuke-tanoue-kt-prompt-collection.onrender.com/)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/98013847/205787484-89426fe4-8564-481d-acf6-b49cfb258e6d.png" />
+</p>
 
 [PROMPT COLLECTION](https://kosuke-tanoue-kt-prompt-collection.onrender.com/)は、<br>AIを利用するサービスのprompt　(stable diffusionのpromptやChatGPTの質問文など)　をメモすることができるアプリケーションです。
 
