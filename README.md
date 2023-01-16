@@ -63,7 +63,7 @@
 11. クリック(promptを削除する場合)
 
 # 𝑁𝑜𝑡𝑒
-起動に時間(数分)がかかる可能性があります
+起動に時間(数分)がかかる可能性があります。申し訳ございません。
 
 # 𝑈𝑅𝐿
 https://kosuke-tanoue-kt-prompt-collection.onrender.com/
