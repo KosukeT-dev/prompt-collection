@@ -65,7 +65,7 @@ PROMPT COLLECTIONでは、promptの作成、編集、削除ができます。
 # 𝑁𝑜𝑡𝑒
 <s>起動に時間(4〜５分)がかかる可能性があります。申し訳ございません。</s>
 
-こちらに新しく簡易版のPROMPT COLLECTIONを作りました。（https://github.com/KosukeT-dev/prompt-collection-en）
+こちらに新しく簡易版のPROMPT COLLECTIONを作りました。<br>https://kosuket-dev.github.io/prompt-collection-en/
 
 # 𝑈𝑅𝐿
 <s>https://kosuke-tanoue-kt-prompt-collection.onrender.com/</s>
