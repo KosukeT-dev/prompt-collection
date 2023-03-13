@@ -63,7 +63,9 @@ PROMPT COLLECTIONでは、promptの作成、編集、削除ができます。
 11. クリック(promptを削除する場合)
 
 # 𝑁𝑜𝑡𝑒
-起動に時間(4〜５分)がかかる可能性があります。申し訳ございません。
+<s>起動に時間(4〜５分)がかかる可能性があります。申し訳ございません。</s>
+
+こちらに新しく簡易版のPROMPT COLLECTIONを作りました。（https://github.com/KosukeT-dev/prompt-collection-en）
 
 # 𝑈𝑅𝐿
 <s>https://kosuke-tanoue-kt-prompt-collection.onrender.com/</s>
