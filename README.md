@@ -2,7 +2,7 @@
   <img src="https://user-images.githubusercontent.com/98013847/205787484-89426fe4-8564-481d-acf6-b49cfb258e6d.png" />
 </p>
 
-[PROMPT COLLECTION](https://kosuke-tanoue-kt-prompt-collection.onrender.com/)は、<br>AIを利用するサービスのprompt　(stable diffusionのpromptやChatGPTの質問文など)　をメモすることができるアプリケーションです。
+PROMPT COLLECTIONは、<br>AIを利用するサービスのprompt　(stable diffusionのpromptやChatGPTの質問文など)　をメモすることができるアプリケーションです。
 
 # 𝐶𝑜𝑛𝑡𝑒𝑛𝑡𝑠
 - 𝐹𝑒𝑎𝑡𝑢𝑟𝑒𝑠
@@ -22,7 +22,7 @@
 # 𝑈𝑠𝑎𝑔𝑒
 
 使い方は簡単！<br>
-[PROMPT COLLECTION](https://kosuke-tanoue-kt-prompt-collection.onrender.com/)では、promptの作成、編集、削除ができます。
+PROMPT COLLECTIONでは、promptの作成、編集、削除ができます。
 
 #### 基本的な使い方
 ***
@@ -66,4 +66,4 @@
 起動に時間(4〜５分)がかかる可能性があります。申し訳ございません。
 
 # 𝑈𝑅𝐿
-https://kosuke-tanoue-kt-prompt-collection.onrender.com/
+<s>https://kosuke-tanoue-kt-prompt-collection.onrender.com/</s>
